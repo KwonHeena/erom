@@ -304,6 +304,11 @@ nav .nav_inner>.depth01_wrap>li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+@media screen and (max-width: 1024px) {
+  nav{
+    display: none;
+  }
+}
 
 /* 푸터 */
 footer {

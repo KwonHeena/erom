@@ -64,6 +64,7 @@ body{
 .section01_slide ul li .slide_inner_wrap{
   padding-top: 16.6rem;
   max-width: 1560px;
+  width: calc(100% - 40px);
   margin: 0 auto;
 }
 .slide_inner_wrap {
@@ -237,6 +238,17 @@ body{
 }
 
 
+@media screen and (max-width: 1620px){
+  .section01_slide .control{
+    right: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+   .section01_slide .control{
+    left: 0px;
+  }
+}
 
 /* 섹션02 start */
   .section02{
