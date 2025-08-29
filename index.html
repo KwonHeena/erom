@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이롬</title>
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/layout.css">
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header_inner">
+      <h1 class="logo">
+        <a href="#none">
+          <img src="src/img/logo.png" alt="erom">
+        </a>
+      </h1>
+      <nav>
+        <div class="nav_inner">
+          <ul class="depth01_wrap">
+            <li>
+              <a href="#none" class="depth01">이롬그룹</a>
+              <ul class="depth02_wrap">
+                <li>
+                  <a href="#none">이롬그룹</a>
+                </li>
+                <li>
+                  <a href="#none">황성주박사</a>
+                </li>
+                <li>
+                  <a href="#none">브랜드 아이덴티티</a> 
+                </li>
+                <li>
+                  <a href="#none">Contact US</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none" class="depth01">사업분야</a>
+              <ul class="depth02_wrap">
+                <li>
+                  <a href="#none">BUSINESS</a>
+                </li>
+                <li>
+                  <a href="#none">GLOBAL</a>
+                </li>
+                <li>
+                  <a href="#none">HUMAN</a>
+                </li>
+                <li>
+                  <a href="#none">EDUCATION</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none" class="depth01">이롬</a>
+              <ul class="depth02_wrap">
+                <li>
+                  <a href="#none">두유</a>
+                </li>
+                <li>
+                  <a href="#none">생식.영양식</a>
+                </li>
+                <li>
+                  <a href="#none">주스.음료</a>
+                </li>
+                <li>
+                  <a href="#none">건강.영양</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none" class="depth01">이롬헬스케어</a>
+              <ul class="depth02_wrap">
+                <li>
+                  <a href="#none">생식&면역</a>
+                </li>
+                <li>
+                  <a href="#none">두유.음료</a>
+                </li>
+                <li>
+                  <a href="#none">건강기능/지향식품</a>
+                </li>
+                <li>
+                  <a href="#none">뷰티&리빙</a>
+                </li>
+                <li>
+                  <a href="#none">의료기기</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none" class="depth01">뉴스&홍보</a>
+              <ul class="depth02_wrap">
+                <li>
+                  <a href="#none">이롬소식</a>
+                </li>
+                <li>
+                  <a href="#none">미디어센터</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#none" class="depth01">이롬人</a>
+              <ul class="depth02_wrap">
+                <li>
+                  <a href="#none">이롬人</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="sub_menu_wrap">
+        <ul>
+          <li>
+            <div class="lang_select">
+              <button type="button" class="lang_ko" onclick="langBtn(this)">
+                <img src="src/img/lank_ko.png" alt="한국어">
+              </button>
+              <div class="lang_list">
+                <div class="inner">
+                  <ul>
+                    <li>
+                      <button type="button">
+                        <img src="src/img/en.png" alt="영어">
+                        <p>English</p>
+                      </button>
+                    </li>
+                    <li>
+                      <button type="button">
+                        <img src="src/img/ch.png" alt="중국어">
+                        <p>China</p>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="all_menu_wrap">
+              <button type="button" class="hamberger" onclick="hamberger(this)">
+                <span class="bar"></span>
+              </button>
+              <div class="all_menu_inner">
+                <div class="siteMap">
+                  <div class="m_header">
+                    <div class="m_logo">
+                      <a href="#none">
+                        <img src="src/img/m_logo.png" alt="erom">
+                      </a>
+                    </div>
+                    <!-- <button type="button" class="hamberger" onclick="closeHam(this)">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </button> -->
+                  </div>
+                  <div class="site_map_depth">
+                    <div class="site_dep01_wrap">
+                      <ul>
+                        <li>
+                          <a href="#none" class="dep01">이롬그룹</a>
+                          <ul class="dep02_wrap">
+                            <li>
+                              <a href="#none">이롬그룹</a>
+                            </li>
+                            <li>
+                              <a href="#none">황성주박사</a>
+                            </li>
+                            <li>
+                              <a href="#none">브랜드 아이덴티티</a>
+                            </li>
+                            <li>
+                              <a href="#none">Contact US</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#none" class="dep01">사업분야</a>
+                          <ul class="dep02_wrap">
+                            <li>
+                              <a href="#none">BUSINESS</a>
+                            </li>
+                            <li>
+                              <a href="#none">GLOBAL</a>
+                            </li>
+                            <li>
+                              <a href="#none">BIO&MEDICAL</a>
+                            </li>
+                            <li>
+                              <a href="#none">HUMAN</a>
+                            </li>
+                            <li>
+                              <a href="#none">EDUCATION</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#none" class="dep01">이롬</a>
+                          <ul class="dep02_wrap">
+                            <li>
+                              <a href="#none">두유</a>
+                            </li>
+                            <li>
+                              <a href="#none">생식.영양식</a>
+                            </li>
+                            <li>
+                              <a href="#none">주스.음료</a>
+                            </li>
+                            <li>
+                              <a href="#none">건강.영양</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#none" class="dep01">이롬그룹</a>
+                          <ul class="dep02_wrap">
+                            <li>
+                              <a href="#none">생식&면역</a>
+                            </li>
+                            <li>
+                              <a href="#none">두유.음료</a>
+                            </li>
+                            <li>
+                              <a href="#none">건강기능/지향식품</a>
+                            </li>
+                            <li>
+                              <a href="#none">뷰티&리빙</a>
+                            </li>
+                            <li>
+                              <a href="#none">의료기기</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#none" class="dep01">뉴스&홍보</a>
+                          <ul class="dep02_wrap">
+                            <li>
+                              <a href="#none">이롬소식</a>
+                            </li>
+                            <li>
+                              <a href="#none">미디어센터</a>
+                            </li>
+                            <li>
+                              <a href="#none"></a>
+                            </li>
+                            <li>
+                              <a href="#none"></a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#none" class="dep01">이롬人</a>
+                          <ul class="dep02_wrap">
+                            <li>
+                              <a href="#none">이롬人</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="m_footer">
+                    <div class="ft_top">
+                      <ul class="site_link">
+                        <li>
+                          <a href="#none">개인정보처리방침</a>
+                        </li>
+                        <li>
+                          <a href="#none">이용약관</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="ft_bottom">
+                      <div class="adr_top">
+                        <p>ADDRESS: 서울특별시 강남구 역삼로 552 (대치동, KM빌딩) 4층, 5층</p>
+                        <p>TEL: 080-345-1111</p>
+                        <p>EMAIL: webmaster@erom.co.kr</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </li>
+      </div>
+      </ul>
+    </div>
+    </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="section01" class="section01">
+      <div class="section_inner">
+        <div class="section01_slide">
+          <ul>
+            <!-- 겹쳐질 이미지 -->
+            <li>
+              <div class="bg">
+                <div class="slide_inner_wrap wh">
+                  <p class="num">05</p>
+                  <div class="rg_wrap">
+                    <span class="tag">꿈의학교</span>
+                    <div class="main_txt">
+                      <p><span>"집을 팔아서 스승을 사라"</span><br>아이들의 더 큰 미래를 생각합니다.</p>
+                    </div>
+                    <div class="sub_txt">
+                      <p>꿈의학교에서는 우리 아이들이 올바른 세계관과 비전, 실력을 겸비하여 <br>언제 어디서나 마음껏 꿈을 펼치고 성장할 수 있도록 사랑으로 양육하고 있습니다.</p>
+                    </div>
+                    <div class="more_btn">
+                      <button type="button"><span>자세히 보기</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bg">
+                <div class="slide_inner_wrap">
+                  <p class="num">01</p>
+                  <div class="rg_wrap">
+                    <span class="tag">이롬</span>
+                    <div class="main_txt">
+                      <p>먹거리에서 생활습관까지<br><span>건강한 개인과 사회에 기여</span>하겠습니다.</p>
+                    </div>
+                    <div class="sub_txt">
+                      <p>이롬은 지나칠 수 있는 자연에서 인간에게 유익한 힘을 발견하는 지혜, <br>과학의 힘으로 자연을 담아 건강에 대한 새로운 해답을 제공해 나가겠습니다.</p>
+                    </div>
+                    <div class="more_btn">
+                      <button type="button"><span>자세히 보기</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bg">
+                <div class="slide_inner_wrap">
+                  <p class="num">02</p>
+                  <div class="rg_wrap">
+                    <span class="tag">이롬헬스케어</span>
+                    <div class="main_txt">
+                      <p>삶의 가치를 전달할 수 있도록 <br><span>건강 라이프 스타일을 연구</span>합니다.</p>
+                    </div>
+                    <div class="sub_txt">
+                      <p>이롬헬스케어는 고객의 삶 속에 깊이 들어가 먹을거리를 시작으로 <br>생활전반의 라이프 스타일을 제공하여, 행복하고 건강한 삶을 선물하고 있습니다.</p>
+                    </div>
+                    <div class="more_btn">
+                      <button type="button"><span>자세히 보기</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bg">
+                <div class="slide_inner_wrap wh">
+                  <p class="num">03</p>
+                  <div class="rg_wrap">
+                    <span class="tag">사랑의병원</span>
+                    <div class="main_txt">
+                      <p><span>면역과 의학적 암 예방</span>까지<br>협진시스템을 운영하고 있습니다.</p>
+                    </div>
+                    <div class="sub_txt">
+                      <p>사랑의병원은 전문 의료진과 첨단 의료장비를 기반으로 협진 시스템을 운영, <br>질병예방과 재발방지 등 진단항목 중심의 건강검진프로그램 운영하고 있습니다.</p>
+                    </div>
+                    <div class="more_btn">
+                      <button type="button"><span>자세히 보기</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bg">
+                <div class="slide_inner_wrap wh">
+                  <p class="num">04</p>
+                  <div class="rg_wrap">
+                    <span class="tag">국제사랑의봉사단</span>
+                    <div class="main_txt">
+                      <p><span>'세계는 나의 교실', '최후의 혁명은 사랑'</span><br>고통받는 이웃들을 섬기고 있습니다.</p>
+                    </div>
+                    <div class="sub_txt">
+                      <p>국제사랑의봉사단은 전 세계의 고통받는 이웃들을 사랑으로 섬기고 <br>전인적 필요를 채워 주고자 전 세계 40여개국에서 활동하고 있습니다.</p>
+                    </div>
+                    <div class="more_btn">
+                      <button type="button"><span>자세히 보기</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="bg">
+                <div class="slide_inner_wrap wh">
+                  <p class="num">05</p>
+                  <div class="rg_wrap">
+                    <span class="tag">꿈의학교</span>
+                    <div class="main_txt">
+                      <p><span>"집을 팔아서 스승을 사라"</span><br>아이들의 더 큰 미래를 생각합니다.</p>
+                    </div>
+                    <div class="sub_txt">
+                      <p>꿈의학교에서는 우리 아이들이 올바른 세계관과 비전, 실력을 겸비하여 <br>언제 어디서나 마음껏 꿈을 펼치고 성장할 수 있도록 사랑으로 양육하고 있습니다.</p>
+                    </div>
+                    <div class="more_btn">
+                      <button type="button"><span>자세히 보기</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- 겹쳐질 이미지 -->
+            <li>
+              <div class="bg">
+                <div class="slide_inner_wrap">
+                  <p class="num">01</p>
+                  <div class="rg_wrap">
+                    <span class="tag">이롬</span>
+                    <div class="main_txt">
+                      <p>먹거리에서 생활습관까지<br><span>건강한 개인과 사회에 기여</span>하겠습니다.</p>
+                    </div>
+                    <div class="sub_txt">
+                      <p>이롬은 지나칠 수 있는 자연에서 인간에게 유익한 힘을 발견하는 지혜, <br>과학의 힘으로 자연을 담아 건강에 대한 새로운 해답을 제공해 나가겠습니다.</p>
+                    </div>
+                    <div class="more_btn">
+                      <button type="button"><span>자세히 보기</span></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="control">
+            <button type="button" onclick="prevBtn()" class="prevBtn"></button>
+            <div class="count">
+              <span class="current"></span>
+              <span class="total"></span>
+            </div>
+            <button type="button" onclick="nextBtn()" class="nextBtn"></button>
+            <div class="bar">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section02" class="section02">
+      <div class="section_inner">
+        <div class="txt_wrap">
+          <p class="sec2_tit">위대함을 향한 이롬의 끊임없는 도전과 혁신</p>
+          <p class="sec2_txt">끊임없는 도전과 혁신으로 최적화된 제품을 개발, 유통하여<br><strong>건강한 개인과 건강한 사회에 기여하는 라이프케어 컴퍼니</strong></p>
+        </div>
+        <div class="sec02_value_wrap">
+          <ul>
+            <li>
+              <a href="#none">
+                <p class="tit">BUSINESS</p>
+                <div class="more_view">
+                  <p>자세히보기</p>
+                  <div class="ico">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <p class="tit">GLOBAL</p>
+                <div class="more_view">
+                  <p>자세히보기</p>
+                  <div class="ico">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <p class="tit">BIO&MEDICAL</p>
+                <div class="more_view">
+                  <p>자세히보기</p>
+                  <div class="ico">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <p class="tit">HUMAN</p>
+                <div class="more_view">
+                  <p>자세히보기</p>
+                  <div class="ico">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#none">
+                <p class="tit">EDUCATION</p>
+                <div class="more_view">
+                  <p>자세히보기</p>
+                  <div class="ico">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="section03" class="section03">
+      <div class="section_inner">
+        <div class="product_wrap">
+          <div class="left_wrap">
+            <div class="pro_txt_wrap">
+              <p class="pro_tit"><span>erom</span>이롬</p>
+              <p class="pro_sub_txt">건강한 개인과 건강한 사회에 기여하는<br>토탈 라이프케어 컴퍼니</p>
+              <button type="button" class="detail_go_btn">
+                자세히보기
+                <div class="ico">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div class="pro_img_wrap">
+              <img src="src/img/pro_img01.png" alt="">
+            </div>
+          </div>
+          <div class="right_wrap">
+            <div class="pro_img_wrap">
+              <img src="src/img/pro_img02.png" alt="">
+            </div>
+            <div class="pro_txt_wrap">
+              <p class="pro_tit"><span>eromHealthcare</span>이롬헬스케어</p>
+              <p class="pro_sub_txt">건강한 라이프스타일, <br>이롬헬스케어가 함께합니다</p>
+              <button type="button" class="detail_go_btn">
+                자세히보기
+                <div class="ico">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section04" class="section04">
+      <div class="section_inner">
+        <div class="news_wrap">
+          <div class="news_inner">
+            <div class="left">
+              <p class="news_txt">life care company,<br>erom group</p>
+              <p class="news_tit">NEWS</p>
+              <button type="button" class="detail_go_btn">
+                VIEW MORE
+                <div class="ico">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div class="right">
+              <div class="news_list">
+                <ul>
+                  <li>
+                    <a href="#none">
+                      <p class="tit">㈜이롬, ‘미네랄워터 리프레쉬’ 2025 미스코리아 공식 후원㈜이롬, ‘미네랄워터 리프레쉬’ 2025 미스코리아 공식 후원㈜이롬, ‘미네랄워터
+                        리프레쉬’ 2025 미스코리아 공식 후원㈜이롬, ‘미네랄워터 리프레쉬’ 2025 미스코리아 공식 후원</p>
+                      <p class="date">25.08.11</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <p class="tit">의왕시 첫 종합병원, 응급의료센터 포함한 스마트병원으로 조성</p>
+                      <p class="date">25.06.13</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#none">
+                      <p class="tit">㈜이롬, ‘미네랄워터 리프레쉬’로 2년 연속 OBS전국 배드민턴대회 공식 협찬</p>
+                      <p class="date">25.06.13</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section05" class="section05">
+      <div class="section_inner">
+        <div class="about_wrap">
+          <p class="about_txt">이롬그룹은 과학의 힘으로 자연을 담아<br>건강에 대한 새로운 해답을 제공해 나가겠습니다</p>
+          <p class="about_tit">erom Company About</p>
+          <div class="about_list_wrap">
+            <ul>
+              <li>
+                <a href="#none">
+                  <div class="bg">
+                    <img src="src/img/sec04_img01_hv.png" alt="">
+                    <img src="src/img/sec04_img01.png" alt="">
+                  </div>
+                  <div class="txt_box">
+                    <p class="top_txt">erom About</p>
+                    <p class="info_txt">이롬그룹 <br>소개</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <div class="bg">
+                    <img src="src/img/sec04_img02_hv.png" alt="">
+                    <img src="src/img/sec04_img02.png" alt="">
+                  </div>
+                  <div class="txt_box">
+                    <p class="top_txt">Hwang, Seong Ju</p>
+                    <p class="info_txt">황성주 <br>박사</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <div class="bg">
+                    <img src="src/img/sec04_img03_hv.png" alt="">
+                    <img src="src/img/sec04_img03.png" alt="">
+                  </div>
+                  <div class="txt_box">
+                    <p class="top_txt">Brand Identity</p>
+                    <p class="info_txt">브랜드 <br>아이덴티티</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#none">
+                  <div class="bg">
+                    <img src="src/img/sec04_img04_hv.png" alt="">
+                    <img src="src/img/sec04_img04.png" alt="">
+                  </div>
+                  <div class="txt_box">
+                    <p class="top_txt">Contact US</p>
+                    <p class="info_txt">Contact <br>US</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_inner">
+        <div class="ft_top">
+          <ul class="site_link">
+            <li>
+              <a href="#none">개인정보처리방침</a>
+            </li>
+            <li>
+              <a href="#none">이용약관</a>
+            </li>
+          </ul>
+          <div class="family_site">
+            <button type="button" onclick="siteOpen(this)" id="siteBtn">
+              Family Site
+              <svg class="svg-inline--fa fa-chevron-right fa-w-10" aria-hidden="true" focusable="false"
+                data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512" data-fa-i2svg="">
+                <path fill="currentColor"
+                  d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                </path>
+              </svg>
+            </button>
+            <div class="site_list_wrap">
+              <div class="site_inner">
+                <ul>
+                  <li>
+                    <a href="#none">이롬</a>
+                  </li>
+                  <li>
+                    <a href="#none">이롬헬스케어</a>
+                  </li>
+                  <li>
+                    <a href="#none">이롬글로벌</a>
+                  </li>
+                  <li>
+                    <a href="#none">사랑의병원</a>
+                  </li>
+                  <li>
+                    <a href="#none">휴젠바이오</a>
+                  </li>
+                  <li>
+                    <a href="#none">생명과학연구원</a>
+                  </li>
+                  <li>
+                    <a href="#none">EQG센타</a>
+                  </li>
+                  <li>
+                    <a href="#none">해밀리</a>
+                  </li>
+                  <li>
+                    <a href="#none">국제사랑봉사단</a>
+                  </li>
+                  <li>
+                    <a href="#none">바이블타임</a>
+                  </li>
+                  <li>
+                    <a href="#none">황성주TV</a>
+                  </li>
+                  <li>
+                    <a href="#none">꿈의 발전소</a>
+                  </li>
+                  <li>
+                    <a href="#none">꿈의학교</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ft_bottom">
+          <div class="adr_top">
+            <p>ADDRESS: 서울특별시 강남구 역삼로 552 (대치동, KM빌딩) 4층, 5층</p>
+            <p>TEL: 080-345-1111</p>
+            <p>EMAIL: webmaster@erom.co.kr</p>
+          </div>
+          <p class="copyright">copyright (c) erom GROUP all rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <button type="button" class="top_btn" onclick="topFun()"><span>TOP</span></button>
+
+  <script src="src/js/script.js"></script>
+</body>
+
+</html>
